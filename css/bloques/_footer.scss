@@ -1,0 +1,51 @@
+.footer {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: beige;
+    width: 100%;
+    height: 30vh;
+    padding-top: 50px;
+
+
+    &__ul { 
+        
+        &__li{
+            
+           
+         list-style: none;
+         font-size: 14px;
+         font-variant: small-caps;
+            
+            &__a{
+             color: black;
+             text-decoration: none;
+            
+            }
+    
+        }
+
+    }
+    
+    
+    &__log{
+
+        letter-spacing: 3px;
+        text-decoration: none; 
+        color: black;
+        font-variant: small-caps;
+        font-size: 50px;  
+    }
+    
+    &__redes{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+  
+}
+
+
+

@@ -1,0 +1,364 @@
+@media (max-width: 576px) { 
+
+    
+    .redes{
+
+        display: none;
+    }
+        
+    
+    .banner{
+        
+        height: 50vh;
+        
+        &__contenedor{
+    
+           
+            padding-top: 100px;
+            letter-spacing: 5px;
+            gap: 10px;
+
+            &__parr{
+    
+                font-size: 40px;
+                font-family:'Great Vibes', cursive;
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-top: 50px;
+            }     
+        }
+    }
+
+    .scroll{
+    
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       align-items: center;
+       
+        
+
+       &__contenedor{
+       
+        display: inline-block;
+
+        &__a{
+
+            &__h2{
+
+             font-family: 'Great Vibes', cursive;
+             font-size: 50px;
+             letter-spacing: 5px;
+            }
+
+        }
+
+        &__p{
+
+            font-size: 16px;
+        }
+       
+        }
+
+        .img-fluid{
+            width: 100%;
+            height: 100%;
+        }
+
+        .scrollImg{
+            display: none;
+        }
+    
+    }
+
+    .scroll--mod{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: #f4dfbad8;
+        margin-top: 5px;
+        align-items: center;
+    
+        .img-fluid{
+            
+            width: 100%;
+            height: 100%;
+        }
+
+        .scrollImg{
+            display: none;
+        }
+    }
+
+}
+
+
+.contacto{
+
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    
+    &__contenedor{
+       
+        width: 100%;
+        gap: 20px;
+        font-size: 16px;
+        
+        &__parr{
+                
+            font-family: 'Great Vibes', cursive;
+            font-size: 50px;
+            letter-spacing: 5px;
+            
+               
+        }      
+    }
+}
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+
+    .redes{
+
+        display: none;
+    }
+        
+    
+    .banner{
+        
+        height: 50vh;
+        
+        &__contenedor{
+    
+           
+            padding-top: 100px;
+            letter-spacing: 5px;
+            gap: 10px;
+
+            &__parr{
+    
+                font-size: 40px;
+                font-family:'Great Vibes', cursive;
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-top: 50px;
+            }     
+        }
+    }
+
+    .scroll{
+    
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       align-items: center;
+       
+        
+
+       &__contenedor{
+       
+        display: inline-block;
+
+        &__a{
+
+            &__h2{
+
+             font-family: 'Great Vibes', cursive;
+             font-size: 50px;
+             letter-spacing: 5px;
+            }
+
+        }
+
+        &__p{
+
+            font-size: 16px;
+        }
+       
+        }
+
+        .img-fluid{
+            width: 100%;
+            height: 100%;
+        }
+
+        .scrollImg{
+            display: none;
+        }
+    
+    }
+
+    .scroll--mod{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: #f4dfbad8;
+        margin-top: 5px;
+        align-items: center;
+    
+        .img-fluid{
+            
+            width: 100%;
+            height: 100%;
+        }
+
+        .scrollImg{
+            display: none;
+        }
+    }
+
+}
+
+
+.contacto{
+
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    
+    &__contenedor{
+       
+        width: 100%;
+        gap: 20px;
+        font-size: 16px;
+        
+        &__parr{
+                
+            font-family: 'Great Vibes', cursive;
+            font-size: 50px;
+            letter-spacing: 5px;
+            
+               
+       }           
+    }
+}
+
+
+
+
+@media (max-width: 991.98px) { 
+
+    .redes{
+
+        display: none;
+    }
+        
+    
+    .banner{
+        
+        height: 50vh;
+        
+        &__contenedor{
+    
+           
+            padding-top: 100px;
+            letter-spacing: 5px;
+            gap: 10px;
+
+            &__parr{
+    
+                font-size: 40px;
+                font-family:'Great Vibes', cursive;
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-top: 50px;
+            }     
+        }
+    }
+
+    .scroll{
+    
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       align-items: center;
+       
+        
+
+       &__contenedor{
+       
+        display: inline-block;
+
+        &__a{
+
+            &__h2{
+
+             font-family: 'Great Vibes', cursive;
+             font-size: 50px;
+             letter-spacing: 5px;
+            }
+
+        }
+
+        &__p{
+
+            font-size: 16px;
+        }
+       
+        }
+
+        .img-fluid{
+            width: 100%;
+            height: 100%;
+        }
+
+        .scrollImg{
+            display: none;
+        }
+    
+    }
+
+    .scroll--mod{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: #f4dfbad8;
+        margin-top: 5px;
+        align-items: center;
+    
+        .img-fluid{
+            
+            width: 100%;
+            height: 100%;
+        }
+
+        .scrollImg{
+            display: none;
+        }
+    }
+
+}
+
+
+.contacto{
+
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    
+    &__contenedor{
+       
+        width: 100%;
+        gap: 20px;
+        font-size: 16px;
+        
+        &__parr{
+                
+            font-family: 'Great Vibes', cursive;
+            font-size: 50px;
+            letter-spacing: 5px;      
+        }
+           
+    }
+   
+}
+
+

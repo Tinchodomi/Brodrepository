@@ -1,0 +1,46 @@
+@import "./variables";
+
+/*////////////////////COLOR PALETTE/////////////////////
+#876445
+#CA965C
+#EEC373
+#F4DFBA
+*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    background-color: #eec3735b;
+    height: 100px;
+    
+   &__logo {
+        display: inline;
+        animation-name: aparecer;
+        animation-duration: 2s;
+        text-decoration: none;
+        color: black;
+        
+        &__h1{
+            letter-spacing: 5px;
+            color: black;
+            font-variant: small-caps;
+            font-size: 50px;  
+        }
+    }   
+}
+
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+

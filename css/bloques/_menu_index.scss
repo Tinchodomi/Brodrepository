@@ -1,0 +1,29 @@
+.menuIzq{
+    
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    
+    &__contenedor{
+        display: flex;
+        align-items: center;
+        
+    }
+    
+}
+
+
+
+.menuDer{
+
+    margin-left: 100px;
+    margin-right: 100px;
+
+    &__contenedor{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+
