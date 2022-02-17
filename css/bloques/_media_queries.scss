@@ -88,38 +88,85 @@
         .scrollImg{
             display: none;
         }
+
+        .maps{
+            display: none;
+        }
     }
 
-}
 
-
-.contacto{
-
-    display: block;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
     
-    &__contenedor{
-       
-        width: 100%;
-        gap: 20px;
-        font-size: 16px;
-        
-        &__parr{
-                
-            font-family: 'Great Vibes', cursive;
-            font-size: 50px;
-            letter-spacing: 5px;
-            
-               
-        }      
+    .footer{
+
+        &__ul{
+    
+            display: none;
+        }
+    
+    
+    
     }
+
+
+    ////////////////////////////menu/////////////
+
+    .menuIzq{
+    
+        padding-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0px;
+        
+        &__contenedor{
+            display: flex;
+            align-items: center;
+            flex-direction: column
+
+              
+        }
+
+        p{
+            font-size: 15px;
+            padding-top: 50px;
+        }
+        
+    }
+    
+    
+    
+    .menuDer{
+    
+        margin-left: 100px;
+        margin-right: 100px;
+    
+        &__contenedor{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+        }
+
+        p{
+            font-size: 15px;
+            padding-top: 50px;
+        }
+    }
+    
+    /////////////////equipo/////////
+
+    .equipo__sec{
+
+        img{
+            display: none;
+        }
+
+        p{
+            font-size: 15px;
+            padding-top: 100px;
+            font-weight: bold;
+        }
+    }
+
 }
-
-
-
-
 
 
 @media (max-width: 767.98px) { 
@@ -211,36 +258,78 @@
         .scrollImg{
             display: none;
         }
+
+        .maps{
+            display: none;
+        }
     }
-
-}
-
-
-.contacto{
-
-    display: block;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
     
-    &__contenedor{
-       
-        width: 100%;
-        gap: 20px;
-        font-size: 16px;
-        
-        &__parr{
-                
-            font-family: 'Great Vibes', cursive;
-            font-size: 50px;
-            letter-spacing: 5px;
-            
-               
-       }           
+    .footer{
+
+        &__ul{
+    
+            display: none;
+        }
+
     }
+
+    ////////////////////////////menu/////////////
+
+    .menuIzq{
+    
+        padding-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        
+        &__contenedor{
+            display: flex;
+            align-items: center;
+            flex-direction: column
+            
+        }
+        
+        p{
+            font-size: 17px;
+            padding-top: 50px;
+        }
+    }
+
+    .menuDer{
+    
+        margin-left: 100px;
+        margin-right: 100px;
+    
+        &__contenedor{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+        }
+       
+        p{
+            font-size: 17px;
+            padding-top: 50px;
+        }
+    }
+    
+    /////////////////equipo/////////
+
+    .equipo__sec{
+
+        img{
+            display: none;
+        }
+
+        p{
+            font-size: 17px;
+            padding-top: 100px;
+            font-weight: bold;
+        }
+    }
+
 }
-
-
 
 
 @media (max-width: 991.98px) { 
@@ -332,33 +421,74 @@
         .scrollImg{
             display: none;
         }
-    }
 
-}
-
-
-.contacto{
-
-    display: block;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
-    
-    &__contenedor{
-       
-        width: 100%;
-        gap: 20px;
-        font-size: 16px;
-        
-        &__parr{
-                
-            font-family: 'Great Vibes', cursive;
-            font-size: 50px;
-            letter-spacing: 5px;      
+        .maps{
+            display: none;
         }
-           
-    }
-   
-}
 
+        
+    }
+
+    .footer{
+
+        &__ul{
+    
+            display: none;
+        }
+    }
+
+////////////////////////menu/////////////
+    .menuIzq{
+    
+        padding-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        
+        &__contenedor{
+            display: flex;
+            align-items: center;
+            flex-direction: column
+            
+        }
+        
+        p{
+            
+            padding-top: 50px;
+        }
+    }
+
+    .menuDer{
+    
+        margin-left: 100px;
+        margin-right: 100px;
+    
+        &__contenedor{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+        }
+       
+        p{
+           
+            padding-top: 50px;
+        }
+    }
+
+    .equipo__sec{
+
+        img{
+            display: none;
+        }
+
+        p{
+            font-size: 18px;
+            padding-top: 100px;
+            font-weight: bold;
+        }
+    }
+
+}
 
