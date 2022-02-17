@@ -164,7 +164,7 @@ main a :hover {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  background-color: #EEC373;
+  background-color: #dfbe80;
   margin-top: 3px;
 }
 
