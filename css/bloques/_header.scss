@@ -16,22 +16,38 @@
     z-index: 10;
     width: 100%;
     background-color: #eec3735b;
-    height: 100px;
     
-   &__logo {
+    &__contenedor{
+        
+       padding-left: 100px;
+       
+
+        &__logo {
         display: inline;
         animation-name: aparecer;
         animation-duration: 2s;
         text-decoration: none;
         color: black;
         
-        &__h1{
-            letter-spacing: 5px;
+            &__h1{
+            
             color: black;
             font-variant: small-caps;
             font-size: 50px;  
         }
-    }   
+
+        } 
+    }  
+}
+
+
+
+.redes{
+
+display: flex;
+align-items: center;
+padding-right: 100px;
+
 }
 
 

@@ -31,11 +31,18 @@
     
     &__log{
 
-        letter-spacing: 3px;
-        text-decoration: none; 
+        text-decoration: none;
         color: black;
-        font-variant: small-caps;
-        font-size: 50px;  
+
+        &__h2{
+
+            color: black;
+            font-variant: small-caps;
+            font-size: 50px;  
+        }
+        
+        
+          
     }
     
     &__redes{

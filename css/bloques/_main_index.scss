@@ -11,7 +11,7 @@ main a :hover{
 }
 
 .banner{
-    background-image: url("../assests/portada2.jpeg");
+    background-image: linear-gradient(rgba(128, 128, 128, 0.089) ),  url("../assests/portada2.jpeg");
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -27,8 +27,7 @@ main a :hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 300px;
-        letter-spacing: 10px;
+        padding-top: 200px;
         gap: 20px;
         
 
@@ -38,11 +37,12 @@ main a :hover{
             font-family:'Great Vibes', cursive;
             margin-top: 20px;
             text-align: center;
-            
+            color: rgba(35, 36, 35, 0.89);
         
         }
     }   
 }
+
 
 .scroll{
     
@@ -50,8 +50,6 @@ main a :hover{
   flex-direction: row;
   background-color: #f4dfbad8;
   margin-top: 3px;
-  
-  
   
   
     &__contenedor{
@@ -62,13 +60,12 @@ main a :hover{
      justify-content: center;
      text-align: justify;
      text-align: center;
-     padding:  50px 50px; 
-     gap:50px;
-     width: 50%;
-
-
-
-       
+     width: 100%;
+     
+     padding-top: 90px;
+     gap: 10px;
+     padding-bottom: 100px;
+ 
 
         &__a{
 
@@ -77,15 +74,25 @@ main a :hover{
              font-family: 'Great Vibes', cursive;
              font-size: 60px;
              letter-spacing: 5px;
+             color: rgba(0, 0, 0, 0.733);
             }
        
-        }  
+        }
+        
+        &__p{
+
+            color: rgba(0, 0, 0, 0.424);
+        }
+
+        
     }
     
     .img-fluid{
         width: 50%;
+        
     }
 
+   
     
 }   
 
@@ -93,20 +100,19 @@ main a :hover{
     
     display: flex;
     flex-direction: row-reverse;
-    background-color: #dfbe80;
+    background-color: #f4dfbad8;
     margin-top: 3px;
     
-    
-
-
     .form{
         display: flex;
         flex-direction: column;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.787);
         
     }
     
     .maps{
-        width: 50%;
+        width: 100%;
     }
 
     .img-fluid{
