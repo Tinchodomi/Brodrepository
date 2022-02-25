@@ -265,7 +265,7 @@ main a :hover {
   position: relative;
   z-index: 10;
   width: 100%;
-  margin-bottom: 3px;
+  margin-bottom: 50px;
 }
 
 .imgMenu {
@@ -576,7 +576,7 @@ main a :hover {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 999px) {
   .imgMenu {
     width: 50%;
   }
@@ -606,7 +606,7 @@ main a :hover {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 823px) {
   .btn {
     font-size: 17px;
   }
@@ -639,7 +639,7 @@ main a :hover {
   }
 }
 
-@media (max-width: 635px) {
+@media (max-width: 755px) {
   .btn {
     font-size: 15px;
   }
@@ -666,9 +666,9 @@ main a :hover {
   }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 633px) {
   .btn {
-    font-size: 15px;
+    font-size: 13px;
   }
   .imgMenu {
     width: 50%;
@@ -699,7 +699,7 @@ main a :hover {
   }
 }
 
-@media (max-width: 441px) {
+@media (max-width: 457px) {
   .btn {
     font-size: 10px;
   }
@@ -732,7 +732,7 @@ main a :hover {
   }
 }
 
-@media (max-width: 353px) {
+@media (max-width: 397px) {
   .btn {
     font-size: 10px;
   }
@@ -747,8 +747,8 @@ main a :hover {
   }
   .menuIzq__contenedor p {
     text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 10px;
   }
   .menuDer__contenedor {
@@ -760,8 +760,8 @@ main a :hover {
   .menuDer__contenedor p {
     text-align: center;
     font-size: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
