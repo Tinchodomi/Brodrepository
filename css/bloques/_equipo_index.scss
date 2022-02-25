@@ -1,13 +1,12 @@
 .equipo{
-    margin-top: 0px;
+    margin-top: 2px;
     
 
     &__sec{
-        margin-top: 5px;
-        background-color: #ca975cd7;
-
+        margin-top: 2px;
 
         &__cont{
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center; 
@@ -16,11 +15,28 @@
           
                 font-size: 40px;
                 text-align: center;
-                padding-bottom: 100px;
-                padding-left: 100px;
-                padding-right: 100px;
+                padding-bottom: 00px;
+                padding-left: 120px;
+                padding-right: 120px;
             }           
         }
      }
 }
  
+.equipoImg{
+    width: 50%;
+    height: 150vh;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap: 5px;
+}
+
+#reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
