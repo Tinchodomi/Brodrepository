@@ -11,14 +11,14 @@ main a :hover{
 }
 
 .banner{
-    background-image: linear-gradient(rgba(128, 128, 128, 0.089) ),  url("../assests/portada2.jpeg");
+    background-image: linear-gradient(rgba(128, 128, 128, 0.103) ),  url("../assests/portada2.jpeg");
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     opacity: 1;
-    background-color:gray;
+    background-color:rgb(128, 128, 128);
     margin-top: 0px;
 
 
@@ -49,7 +49,7 @@ main a :hover{
   display: flex;
   flex-direction: row;
   background-color: #f4dfbad8;
-  margin-top: 3px;
+  margin-top: 5px;
   
   
     &__contenedor{
@@ -61,7 +61,6 @@ main a :hover{
      text-align: justify;
      text-align: center;
      width: 100%;
-     
      padding-top: 90px;
      gap: 10px;
      padding-bottom: 100px;
@@ -90,6 +89,7 @@ main a :hover{
     .img-fluid{
         width: 50%;
         
+        
     }
 
    
@@ -101,7 +101,9 @@ main a :hover{
     display: flex;
     flex-direction: row-reverse;
     background-color: #f4dfbad8;
-    margin-top: 3px;
+    margin-top: 5px;
+   
+   
     
     .form{
         display: flex;
@@ -111,16 +113,21 @@ main a :hover{
         
     }
     
-    .maps{
-        width: 100%;
-    }
+    
 
     .img-fluid{
         
         width: 50%;
     }
 
+    
 
+    .maps{
+        
+        width: 100%;
+          
+    }
+    
 }
 
 

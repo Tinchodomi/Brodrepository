@@ -1,7 +1,8 @@
 
+///////INDEX/////
+
 @media (max-width: 991.98px) { 
 
-    
 
     .redes{
         display: none;
@@ -87,59 +88,10 @@
         
     }
 
-    
-////////////////////////menu/////////////
-    .menuIzq{
-    
-        padding-top: 100px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        
-        
-        &__contenedor{
-            display: flex;
-            align-items: center;
-            flex-direction: column
-            
-        }
-        
-        p{
-            
-            padding-top: 50px;
-        }
-    }
+    /////////////////////MENU////////////////////
 
-    .menuDer{
     
-        margin-left: 100px;
-        margin-right: 100px;
-    
-        &__contenedor{
-            display: flex;
-            flex-direction:column;
-            align-items: center;
-        }
-       
-        p{
-           
-            padding-top: 50px;
-        }
-    }
 
-    .equipo__sec{
-
-        img{
-            display: none;
-        }
-
-        p{
-            font-size: 18px;
-            padding-top: 100px;
-            font-weight: bold;
-        }
-    }
 
 }
 
@@ -238,62 +190,6 @@
             display: none;
         }
 
-    }
-
-    ////////////////////////////menu/////////////
-
-    .menuIzq{
-    
-        padding-top: 100px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        
-        
-        &__contenedor{
-            display: flex;
-            align-items: center;
-            flex-direction: column
-            
-        }
-        
-        p{
-            font-size: 17px;
-            padding-top: 50px;
-        }
-    }
-
-    .menuDer{
-    
-        margin-left: 100px;
-        margin-right: 100px;
-    
-        &__contenedor{
-            display: flex;
-            flex-direction:column;
-            align-items: center;
-        }
-       
-        p{
-            font-size: 17px;
-            padding-top: 50px;
-        }
-    }
-    
-    /////////////////equipo/////////
-
-    .equipo__sec{
-
-        img{
-            display: none;
-        }
-
-        p{
-            font-size: 17px;
-            padding-top: 100px;
-            font-weight: bold;
-        }
     }
 
 }
@@ -415,65 +311,335 @@
     }
 
 
-    ////////////////////////////menu/////////////
+}
 
-    .menuIzq{
-    
-        padding-top: 100px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 0px;
-        
-        &__contenedor{
-            display: flex;
-            align-items: center;
-            flex-direction: column
 
-              
+/////MENU////////
+
+@media (max-width: 992px) { 
+
+    .imgMenu{
+        width: 50%;
+       
+     }
+     
+     .menuIzq{
+       
+         &__contenedor{
+
+            padding-bottom: 40px;
+
+            &__div{
+                gap: 15px;
+            }
+             
+             p{
+                 text-align: center;
+                 padding-left: 80px;
+                 padding-right: 80px;
+                 font-size:19px;
+                
+                }
         }
+         
+     }
+     
+     .menuDer{
 
-        p{
-            font-size: 15px;
-            padding-top: 50px;
-        }
-        
-    }
-    
-    
-    
-    .menuDer{
-    
-        margin-left: 100px;
-        margin-right: 100px;
-    
-        &__contenedor{
-            display: flex;
-            flex-direction:column;
-            align-items: center;
-        }
+         &__contenedor{
 
-        p{
-            font-size: 15px;
-            padding-top: 50px;
-        }
-    }
-    
-    /////////////////equipo/////////
+            padding-bottom: 40px;
 
-    .equipo__sec{
-
-        img{
-            display: none;
-        }
-
-        p{
-            font-size: 15px;
-            padding-top: 100px;
-            font-weight: bold;
-        }
-    }
+            &__div{
+                gap: 15px;
+            }
+     
+             
+             p{
+                 text-align: center;
+                 font-size: 19px;
+                 padding-left: 80px;
+                 padding-right: 80px;
+                }
+            
+         }
+     }
 
 }
+
+@media (max-width: 767px) { 
+
+    .btn{
+
+        font-size: 17px;
+    }
+
+    .imgMenu{
+        width: 50%;
+       
+     }
+     
+     .menuIzq{
+       
+         &__contenedor{
+
+            padding-bottom: 50px;
+            
+            &__div{
+                gap: 10px;
+            }
+             
+             p{
+                 text-align: center;
+                 padding-left: 60px;
+                 padding-right: 60px;
+                 font-size:16px;
+                
+                }
+        }
+         
+     }
+     
+     .menuDer{
+
+         &__contenedor{
+
+            padding-bottom: 50px;
+            
+            &__div{
+                gap: 10px;
+            }
+             
+             p{
+                 text-align: center;
+                 font-size: 16px;
+                 padding-left: 60px;
+                 padding-right: 60px;
+                }
+            
+         }
+     }
+
+}
+
+@media (max-width: 635px) { 
+    .btn{
+
+        font-size: 15px;
+    }
+
+    .imgMenu{
+        width: 50%;
+       
+     }
+     
+     .menuIzq{
+       
+         &__contenedor{
+
+            padding-bottom: 60px;
+             
+             p{
+                 text-align: center;
+                 padding-left: 60px;
+                 padding-right: 60px;
+                 font-size:15px;
+                
+                }
+        }
+         
+     }
+     
+     .menuDer{
+
+         &__contenedor{
+
+            padding-bottom: 60px;
+     
+             
+             p{
+                 text-align: center;
+                 font-size: 13px;
+                 padding-left: 60px;
+                 padding-right: 60px;
+                }
+            
+         }
+     }
+
+}
+
+@media (max-width: 525px) { 
+    .btn{
+
+        font-size: 15px;
+    }
+
+    .imgMenu{
+        width: 50%;
+       
+     }
+     
+     .menuIzq{
+       
+         &__contenedor{
+
+            padding-bottom: 50px;
+
+            &__div{
+                gap: 5px;
+            }
+             
+             p{
+                 text-align: center;
+                 padding-left: 30px;
+                 padding-right: 30px;
+                 font-size:13px;
+                 
+                
+                }
+        }
+         
+     }
+     
+     .menuDer{
+
+         &__contenedor{
+
+            padding-bottom: 50px;
+
+            &__div{
+                gap: 5px;
+            }
+     
+             
+             p{
+                 text-align: center;
+                 font-size: 13px;
+                 padding-left: 30px;
+                 padding-right: 30px;
+                }
+            
+         }
+     }
+
+}
+
+@media (max-width: 441px) { 
+
+    .btn{
+
+        font-size: 10px;
+    }
+
+    .imgMenu{
+        width: 50%;
+       
+     }
+     
+     .menuIzq{
+       
+         &__contenedor{
+
+            padding-bottom: 50px;
+
+            &__div{
+                gap: 0px;
+            }
+             
+             p{
+                 text-align: center;
+                 padding-left: 10px;
+                 padding-right: 10px;
+                 font-size:12px;
+                 
+                
+                }
+        }
+         
+     }
+     
+     .menuDer{
+
+         &__contenedor{
+
+            padding-bottom: 50px;
+
+            &__div{
+                gap: 0px;
+            }
+     
+             
+             p{
+                 text-align: center;
+                 font-size: 12px;
+                 padding-left: 10px;
+                 padding-right: 10px;
+                }
+            
+         }
+     }
+
+}
+
+@media (max-width: 353px) {
+    
+    .btn{
+
+        font-size: 10px;
+    }
+
+    .imgMenu{
+        width: 50%;
+       
+     }
+     
+     .menuIzq{
+       
+         &__contenedor{
+
+            padding-bottom: 50px;
+
+            &__div{
+                gap: 0px;
+            }
+             
+             p{
+                 text-align: center;
+                 padding-left: 0px;
+                 padding-right: 0px;
+                 font-size:10px;
+                 
+                
+                }
+        }
+         
+     }
+     
+     .menuDer{
+
+         &__contenedor{
+
+            padding-bottom: 50px;
+
+            &__div{
+                gap: 0px;
+            }
+     
+             
+             p{
+                 text-align: center;
+                 font-size: 10px;
+                 padding-left: 0px;
+                 padding-right: 0px;
+                }
+            
+         }
+     }
+
+}
+
+
 
 
 

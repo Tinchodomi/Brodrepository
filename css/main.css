@@ -14,6 +14,10 @@
 #EEC373
 #F4DFBA
 */
+.indexBody {
+  background-color: beige;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,8 +95,8 @@ main a :hover {
 }
 
 .banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.089))), url("../assests/portada2.jpeg");
-  background-image: linear-gradient(rgba(128, 128, 128, 0.089)), url("../assests/portada2.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.103))), url("../assests/portada2.jpeg");
+  background-image: linear-gradient(rgba(128, 128, 128, 0.103)), url("../assests/portada2.jpeg");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -135,7 +139,7 @@ main a :hover {
       -ms-flex-direction: row;
           flex-direction: row;
   background-color: #f4dfbad8;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .scroll__contenedor {
@@ -184,7 +188,7 @@ main a :hover {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   background-color: #f4dfbad8;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .scroll--mod .form {
@@ -199,12 +203,12 @@ main a :hover {
   color: rgba(0, 0, 0, 0.787);
 }
 
-.scroll--mod .maps {
-  width: 100%;
-}
-
 .scroll--mod .img-fluid {
   width: 50%;
+}
+
+.scroll--mod .maps {
+  width: 100%;
 }
 
 .footer {
@@ -221,6 +225,7 @@ main a :hover {
   width: 100%;
   height: 30vh;
   padding-top: 50px;
+  margin-top: 5px;
 }
 
 .footer__ul__li {
@@ -255,25 +260,61 @@ main a :hover {
           align-items: center;
 }
 
+.headerMenu {
+  background-color: #ecb44c5b;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.imgMenu {
+  width: 50%;
+}
+
 .menuIzq {
-  padding-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
 }
 
 .menuIzq__contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menuIzq__contenedor__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+}
+
+.menuIzq__contenedor p {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 20px;
 }
 
 .menuDer {
-  margin-left: 100px;
-  margin-right: 100px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
 }
 
 .menuDer__contenedor {
@@ -284,9 +325,30 @@ main a :hover {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.menuDer__contenedor__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+}
+
+.menuDer__contenedor p {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .equipo {
@@ -373,55 +435,6 @@ main a :hover {
   .scroll--mod .maps {
     display: none;
   }
-  .menuIzq {
-    padding-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .menuIzq__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .menuIzq p {
-    padding-top: 50px;
-  }
-  .menuDer {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .menuDer__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .menuDer p {
-    padding-top: 50px;
-  }
-  .equipo__sec img {
-    display: none;
-  }
-  .equipo__sec p {
-    font-size: 18px;
-    padding-top: 100px;
-    font-weight: bold;
-  }
 }
 
 @media (max-width: 767.98px) {
@@ -485,57 +498,6 @@ main a :hover {
   }
   .footer__ul {
     display: none;
-  }
-  .menuIzq {
-    padding-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .menuIzq__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .menuIzq p {
-    font-size: 17px;
-    padding-top: 50px;
-  }
-  .menuDer {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .menuDer__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .menuDer p {
-    font-size: 17px;
-    padding-top: 50px;
-  }
-  .equipo__sec img {
-    display: none;
-  }
-  .equipo__sec p {
-    font-size: 17px;
-    padding-top: 100px;
-    font-weight: bold;
   }
 }
 
@@ -612,55 +574,194 @@ main a :hover {
   .footer__ul {
     display: none;
   }
-  .menuIzq {
-    padding-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 0px;
+}
+
+@media (max-width: 992px) {
+  .imgMenu {
+    width: 50%;
   }
   .menuIzq__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    padding-bottom: 40px;
   }
-  .menuIzq p {
-    font-size: 15px;
-    padding-top: 50px;
+  .menuIzq__contenedor__div {
+    gap: 15px;
   }
-  .menuDer {
-    margin-left: 100px;
-    margin-right: 100px;
+  .menuIzq__contenedor p {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 19px;
   }
   .menuDer__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    padding-bottom: 40px;
   }
-  .menuDer p {
+  .menuDer__contenedor__div {
+    gap: 15px;
+  }
+  .menuDer__contenedor p {
+    text-align: center;
+    font-size: 19px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn {
+    font-size: 17px;
+  }
+  .imgMenu {
+    width: 50%;
+  }
+  .menuIzq__contenedor {
+    padding-bottom: 50px;
+  }
+  .menuIzq__contenedor__div {
+    gap: 10px;
+  }
+  .menuIzq__contenedor p {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 16px;
+  }
+  .menuDer__contenedor {
+    padding-bottom: 50px;
+  }
+  .menuDer__contenedor__div {
+    gap: 10px;
+  }
+  .menuDer__contenedor p {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 635px) {
+  .btn {
     font-size: 15px;
-    padding-top: 50px;
   }
-  .equipo__sec img {
-    display: none;
+  .imgMenu {
+    width: 50%;
   }
-  .equipo__sec p {
+  .menuIzq__contenedor {
+    padding-bottom: 60px;
+  }
+  .menuIzq__contenedor p {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
     font-size: 15px;
-    padding-top: 100px;
-    font-weight: bold;
+  }
+  .menuDer__contenedor {
+    padding-bottom: 60px;
+  }
+  .menuDer__contenedor p {
+    text-align: center;
+    font-size: 13px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 525px) {
+  .btn {
+    font-size: 15px;
+  }
+  .imgMenu {
+    width: 50%;
+  }
+  .menuIzq__contenedor {
+    padding-bottom: 50px;
+  }
+  .menuIzq__contenedor__div {
+    gap: 5px;
+  }
+  .menuIzq__contenedor p {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+  }
+  .menuDer__contenedor {
+    padding-bottom: 50px;
+  }
+  .menuDer__contenedor__div {
+    gap: 5px;
+  }
+  .menuDer__contenedor p {
+    text-align: center;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 441px) {
+  .btn {
+    font-size: 10px;
+  }
+  .imgMenu {
+    width: 50%;
+  }
+  .menuIzq__contenedor {
+    padding-bottom: 50px;
+  }
+  .menuIzq__contenedor__div {
+    gap: 0px;
+  }
+  .menuIzq__contenedor p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  .menuDer__contenedor {
+    padding-bottom: 50px;
+  }
+  .menuDer__contenedor__div {
+    gap: 0px;
+  }
+  .menuDer__contenedor p {
+    text-align: center;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 353px) {
+  .btn {
+    font-size: 10px;
+  }
+  .imgMenu {
+    width: 50%;
+  }
+  .menuIzq__contenedor {
+    padding-bottom: 50px;
+  }
+  .menuIzq__contenedor__div {
+    gap: 0px;
+  }
+  .menuIzq__contenedor p {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 10px;
+  }
+  .menuDer__contenedor {
+    padding-bottom: 50px;
+  }
+  .menuDer__contenedor__div {
+    gap: 0px;
+  }
+  .menuDer__contenedor p {
+    text-align: center;
+    font-size: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */
