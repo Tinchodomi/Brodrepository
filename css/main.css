@@ -438,28 +438,11 @@ main a :hover {
 }
 
 @media (max-width: 767.98px) {
-  .redes {
-    display: none;
-  }
   .banner {
     height: 80vh;
   }
   .banner__contenedor__parr {
     font-size: 65px;
-    font-family: 'Great Vibes', cursive;
-  }
-  .scroll {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .scroll__contenedor {
     width: 70%;
@@ -515,6 +498,87 @@ main a :hover {
     height: 70vh;
   }
   .banner__contenedor {
+    padding-top: 150px;
+    letter-spacing: 2px;
+    gap: px;
+  }
+  .banner__contenedor__parr {
+    font-size: 55px;
+    font-family: 'Great Vibes', cursive;
+  }
+  .scroll {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .scroll__contenedor {
+    width: 100%;
+  }
+  .scroll__contenedor__a__h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 55px;
+  }
+  .scroll__contenedor__p {
+    font-size: 18px;
+  }
+  .scroll .img-fluid {
+    width: 100%;
+    height: 100%;
+  }
+  .scroll--mod {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #f4dfbad8;
+    margin-top: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .scroll--mod .img-fluid {
+    width: 100%;
+    height: 100%;
+  }
+  .scroll--mod .maps {
+    display: none;
+  }
+  .footer__ul {
+    display: none;
+  }
+}
+
+@media (max-width: 411px) {
+  #boton {
+    margin-left: 40px;
+    font-size: 15px;
+  }
+  .banner {
+    height: 70vh;
+  }
+  .banner__contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 10px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     padding-top: 150px;
     letter-spacing: 2px;
     gap: px;
@@ -668,7 +732,7 @@ main a :hover {
 
 @media (max-width: 633px) {
   .btn {
-    font-size: 13px;
+    font-size: 15px;
   }
   .imgMenu {
     width: 50%;
@@ -701,7 +765,7 @@ main a :hover {
 
 @media (max-width: 457px) {
   .btn {
-    font-size: 10px;
+    font-size: 15px;
   }
   .imgMenu {
     width: 50%;

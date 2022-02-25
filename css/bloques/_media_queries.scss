@@ -97,38 +97,23 @@
 
 @media (max-width: 767.98px) { 
 
-   
-  
-    .redes{
-        display: none;
-    }
-      
     
     .banner{
         
         height: 80vh;
         
         &__contenedor{
-    
-            
-            
             
             &__parr{
     
                 font-size: 65px;
-                font-family:'Great Vibes', cursive;
                 
             }     
         }
     }
 
     .scroll{
-    
-       display: flex;
-       flex-direction: column;
-       width: 100%;
-       align-items: center;
-       
+
         
 
        &__contenedor{
@@ -158,8 +143,6 @@
             height: 100%;
         }
 
-       
-    
     }
 
     .scroll--mod{
@@ -223,6 +206,116 @@
         &__contenedor{
     
            
+            padding-top: 150px;
+            letter-spacing: 2px;
+            gap: px;
+
+            &__parr{
+    
+                font-size: 55px;
+                font-family:'Great Vibes', cursive;
+                
+            }     
+        }
+    }
+
+    .scroll{
+    
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       align-items: center;
+       
+        
+
+       &__contenedor{
+       
+        width: 100%;
+
+        &__a{
+
+            &__h2{
+
+             font-family: 'Great Vibes', cursive;
+             font-size: 55px;
+             
+            }
+
+        }
+
+        &__p{
+
+            font-size: 18px;
+        }
+       
+        }
+
+        .img-fluid{
+            width: 100%;
+            height: 100%;
+        }
+
+       
+    
+    }
+
+    .scroll--mod{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: #f4dfbad8;
+        margin-top: 5px;
+        align-items: center;
+    
+        .img-fluid{
+            
+            width: 100%;
+            height: 100%;
+        }
+
+        
+
+        .maps{
+            display: none;
+        }
+    }
+
+
+    
+    .footer{
+
+        &__ul{
+    
+            display: none;
+        }
+    
+    
+    
+    }
+
+
+}
+
+@media (max-width: 411px) { 
+
+   
+
+    
+   
+    #boton{
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    .banner{
+        
+        height: 70vh;
+        
+        &__contenedor{
+    
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            align-items: flex-start;
             padding-top: 150px;
             letter-spacing: 2px;
             gap: px;
@@ -472,7 +565,7 @@
 @media (max-width: 633px) { 
     .btn{
 
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .imgMenu{
@@ -529,7 +622,7 @@
 
     .btn{
 
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .imgMenu{
