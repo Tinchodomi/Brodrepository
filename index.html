@@ -25,13 +25,21 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav align-items-end justify-content-center">
+                <div class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav align-items-end justify-content-center" id="menu" >
                         <li class="nav-item ">
                             <a class="nav-link " href="index.html">Inicio</a>
                           </li>
                         <li class="nav-item ">
-                            <a class="nav-link " href="./pages/menu.html">Menu</a>
+                            <a class="nav-link" href="">Menu</a>
+                            <ul class="nav flex-column" id="submenu">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="./pages/menu.html">Panes</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="./pages/pizza.html">Pizzas</a>
+                                </li>
+                              </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link " href="./pages/equipo.html">Equipo</a>
@@ -53,6 +61,7 @@
         <section class="banner">
             <div class="banner__contenedor">
                 <h2 class="banner__contenedor__parr">Bienvenidos<span class="banner__contenedor__parr"> a nuestra Casa</span></h2>
+                <h5>*Desde 1991*</h5>
                 <button type="button" class="btn btn-dark" id="boton">Reservá tu pedido</button>
             </div>
         </section>
@@ -60,11 +69,31 @@
             <div class="scroll__contenedor">
                 <img class="scrollImg" src="assests/panicon.png" alt="" width="10%">
                 <a class="scroll__contenedor__a" href="./pages/menu.html">
-                    <h2 class="scroll__contenedor__a__h2">Menu</h2>
+                    <h2 class="scroll__contenedor__a__h2">Panadería</h2>
                 </a>
-                <p class="scroll__contenedor__p">Conocé nuestras especialidades.</p>
+                <p class="scroll__contenedor__p">Especialidades de nuestra casa.</p>
             </div>
-            <img src="assests/nosotrsect.jpg" class="img-fluid" alt="...">
+            <img src="assests/catering11.jpg" class="img-fluid" alt="...">
+        </section>
+        <section class="scroll--mod">
+            <div class="scroll__contenedor">
+                <img class="scrollImg" src="assests/chef.png" alt="" width="7%">
+                <a class="scroll__contenedor__a" href="./pages/equipo.html">
+                    <h2 class="scroll__contenedor__a__h2"  >Pizzería</h2>
+                </a>
+                <p class="scroll__contenedor__p">Conocé las distintas variedades.</p>
+            </div>
+            <img src="assests/pizzas.jpg" class="img-fluid" alt="...">
+        </section>
+        <section class="scroll">
+            <div class="scroll__contenedor">
+                <img class="scrollImg" src="assests/food-tray.png" alt="" width="8%">
+                <a class="scroll__contenedor__a" href="./pages/catering.html">
+                    <h2 class="scroll__contenedor__a__h2">Catering</h2>
+                </a>
+                <p class="scroll__contenedor__p">Eventos familiares y empresariales.</p>
+            </div>
+            <img src="assests/catering6.jpg" class="img-fluid" alt="...">
         </section>
         <section class="scroll--mod">
             <div class="scroll__contenedor">
@@ -76,19 +105,9 @@
             </div>
             <img src="assests/pexels-klaus-nielsen-6287295.jpg" class="img-fluid" alt="...">
         </section>
-        <section class="scroll">
-            <div class="scroll__contenedor">
-                <img class="scrollImg" src="assests/food-tray.png" alt="" width="8%">
-                <a class="scroll__contenedor__a" href="./pages/contacto.html">
-                    <h2 class="scroll__contenedor__a__h2">Catering</h2>
-                </a>
-                <p class="scroll__contenedor__p">Eventos familiares y empresariales.</p>
-            </div>
-            <img src="assests/catering6.jpg" class="img-fluid" alt="...">
-        </section>
-        <section class="scroll--mod">
-            <div class="scroll__contenedor">
-                <h2 class="scroll__contenedor__a__h2">Contacto</h2>
+        <section class="contacto">
+            <div class="contacto__contenedor">
+                <h2 class="scroll__contenedor__a__h2"  >Contacto</h2>
                 <form  action="" method="get" enctype="text/plains">
                     <fieldset class="form">
                         <label for="">Nombre</label>
@@ -99,30 +118,16 @@
                         <input type="text" name="username" id="info-personal" placeholder="">
                         <label for="">Envíe su comentario:</label>
                         <textarea name="msg" id="" cols="30" rows="5"></textarea>
-                        <button id="btn" type="button" class="btn btn-dark">Enviar</button>
+                    <button id="btn" type="button" class="btn btn-dark">Enviar</button>
                 </form>  
             </div>
-            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6801627.794709204!2d-68.11612935719343!3d-33.654380966044016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaca256b9fbf%3A0x3d21f3e9b8f0f6f3!2sBrod!5e0!3m2!1ses-419!2sar!4v1645050898153!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" width=""></iframe>  
         </section>
     </main>
     <footer class="footer">
         <div class="footer__log">
-            <h2 class="footer__log__h2">Bröd</h2>
+            <a href="index.html"><h2 class="footer__log__h2">Bröd</h2></a>
         </div>
-        <ul class="footer__ul">
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">contactenos</a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">seguí tu pedido</a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">métodos de pago</a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">preguntas frecuentes</a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">defensa del consumidor</a></li>
-        </ul>
-        <ul class="footer__ul">
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">empleos</a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">franquicias</a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">sustentabilidad</a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">política de privacidad</a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="">términos y condiciones</a></li>
-        </ul>
+        
         <div class="footer__redes">
             <a href="https://www.instagram.com/"><img src="assests/instagram.png" alt="" width="42px"></a>
             <a href="https://www.facebook.com/"><img src="assests/face.png" alt="" width="50px"></a>

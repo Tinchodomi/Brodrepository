@@ -26,20 +26,28 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse  justify-content-center" id="navbarNav">
-                <ul class="navbar-nav align-items-end">
+            <div class="collapse navbar-collapse  justify-content-center" >
+                <ul class="navbar-nav align-items-end" id="menu">
                   <li class="nav-item ">
                     <a class="nav-link " href="../index.html">Inicio</a>
                   </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="menu.html">Menu</a>
+                        <a class="nav-link " href="">Menu</a>
+                        <ul class="nav flex-column" id="submenu">
+                          <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Panes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="pizza.html">Pizzas</a>
+                          </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="equipo.html">Equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="catering.html">Catering</a>
-                    </li>
+                      <a class="nav-link " href="equipo.html">Equipo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="catering.html">Catering</a>
+                </li>
                 </ul>
             </div>
         </div>
@@ -53,48 +61,48 @@
   <main>
     <section class="menuIzq">
       <div class="menuIzq__contenedor">
-        <img class="imgMenu" src="../assests/brodclasico.jpeg" alt="">
+        <img class="imgMenu" src="../assests/pan1.jpg" alt="">
         <div class="menuIzq__contenedor__div">
         <p>El pan clásico blanco es ideal para preparar sándwiches, tostar o untar con manteca y mermelada, elaborado con productos 100% naturales le otorgan un sabor único. </p>
-        <button type="button" class="btn btn-dark">Comprar</button>
+        <button type="button" class="btn btn-dark" id="btn">Comprar</button>
       </div>
       </div>
     </section>
     <section class="menuDer">
       <div class="menuDer__contenedor">
-        <img class="imgMenu" src="../assests/brodmediterraneo.jpeg" alt="">
+        <img class="imgMenu" src="../assests/pan2.jpg" alt="">
         <div class="menuDer__contenedor__div">
         <p>El pan mediterraneo está basado en el clima y alguna de las materias primas características del mismo. Las nueces, panceta ibérica, las aceitunas, el aceite de oliva virgen extra, romero, tomillo, orégano y perejil sirven como fundamento de un pan que conserva nuestra línea de elaboración.</p>
-        <button type="button" class="btn btn-dark">Comprar</button>
+        <button type="button" class="btn btn-dark" id="btn">Comprar</button>
       </div>
       </div>
     </section>
     <section class="menuIzq">
       <div class="menuIzq__contenedor">
-        <img class="imgMenu" src="../assests/brodrustico.jpeg" alt="">
+        <img class="imgMenu" src="../assests/pan3.jpg" alt="">
           <div class="menuIzq__contenedor__div">
           <p>Pan rústico tradicional redondo de corteza gruesa y enharinada.
          Con una larga fermentación final y un horneado en horno de solera.</p>
-          <button type="button" class="btn btn-dark">Comprar</button>
+          <button type="button" class="btn btn-dark " id="btn">Comprar</button>
         </div>
       </div>
     </section>
     <section class="menuDer">
       <div class="menuDer__contenedor">
-        <img class="imgMenu" src="../assests/brodmaiz.jpeg" alt="">
+        <img class="imgMenu" src="../assests/pan4.jpg" alt="">
         <div class="menuDer__contenedor__div">
         <p>El pan de maiz, es un pan de miga blanca y suave, con corteza dura.Tipo de pan hecho con mezcla de harina refinada de maiz.</p>
-        <button type="button" class="btn btn-dark">Comprar</button>
+        <button type="button" class="btn btn-dark" id="btn" >Comprar</button>
       </div>
       </div>
     </section>
     <section class="menuIzq">
       <div class="menuIzq__contenedor">
-        <img class="imgMenu" src="../assests/brodsemillas.jpeg" alt="">
+        <img class="imgMenu" src="../assests/panportada.jpg" alt="">
         <div class="menuIzq__contenedor__div">
         <p>El pan de semillas, sus exquisitas combinaciones hacen que tengamos pan fresco y con un particular sabor a sesamo y semillas livianas.
       </p>
-      <button type="button" class="btn btn-dark">Comprar</button>  
+      <button type="button" class="btn btn-dark" id="btn">Comprar</button>  
     </div>
       </div>
     </section>
@@ -103,25 +111,11 @@
     <div class="footer__log">
       <h2 class="footer__log__h2">Bröd</h2>
     </div>
-    <ul class="footer__ul">
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">contactenos</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">seguí tu pedido</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">métodos de pago</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">preguntas frecuentes</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">defensa del consumidor</a></li>
-    </ul>
-    <ul class="footer__ul">
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">empleos</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">franquicias</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">sustentabilidad</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">política de privacidad</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">términos y condiciones</a></li>
-    </ul>
     <div class="footer__redes">
-      <a href="https://www.instagram.com/"><img src="../assests/instagram.png" alt="" width="32px"></a>
-      <a href="https://www.facebook.com/"><img src="../assests/face.png" alt="" width="38px"></a>
-      <a href="https://www.whatsapp.com/?lang=es"><img src="../assests/whatsap.png" alt="" width="38px"></a>
-    </div>
+      <a href="https://www.instagram.com/"><img src="../assests/instagram.png" alt="" width="42px"></a>
+      <a href="https://www.facebook.com/"><img src="../assests/face.png" alt="" width="50px"></a>
+      <a href="https://www.whatsapp.com/?lang=es"><img src="../assests/whatsap.png" alt="" width="50px"></a>
+  </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

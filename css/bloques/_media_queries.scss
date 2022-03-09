@@ -70,7 +70,7 @@
     
         display: flex;
         flex-direction: column;
-        background-color: #f4dfbad8;
+      
         margin-top: 5px;
         align-items: center;
     
@@ -299,13 +299,7 @@
 @media (max-width: 411px) { 
 
    
-
-    
    
-    #boton{
-        margin-left: 40px;
-        font-size: 15px;
-    }
     .banner{
         
         height: 70vh;
@@ -373,7 +367,7 @@
     
         display: flex;
         flex-direction: column;
-        background-color: #f4dfbad8;
+      
         margin-top: 5px;
         align-items: center;
     
@@ -409,25 +403,41 @@
 
 /////MENU////////
 
+
 @media (max-width: 999px) { 
 
+    .headerMenu{
+
+        height: 70vh;
+    }
+
     .imgMenu{
-        width: 50%;
+        width: 100%;
        
      }
      
      .menuIzq{
+
+   
        
          &__contenedor{
 
             padding-bottom: 40px;
+            flex-direction: column;
+            width: 100%;
+            
+            
 
             &__div{
                 gap: 15px;
+                width: 100%;
+                height: 40vh;
+                
             }
              
              p{
                  text-align: center;
+               
                  padding-left: 80px;
                  padding-right: 80px;
                  font-size:19px;
@@ -439,12 +449,20 @@
      
      .menuDer{
 
+        
+
          &__contenedor{
 
             padding-bottom: 40px;
+            flex-direction: column;
+            width: 100%;
+            
 
             &__div{
                 gap: 15px;
+                width: 100%;
+                height: 40vh;
+                
             }
      
              
@@ -462,13 +480,18 @@
 
 @media (max-width: 823px) { 
 
-    .btn{
+    #btn{
 
-        font-size: 17px;
+        font-size: 15px;
+    }
+
+    .headerMenu{
+
+        height: 50vh;
     }
 
     .imgMenu{
-        width: 50%;
+        width: 100%;
        
      }
      
@@ -477,6 +500,7 @@
          &__contenedor{
 
             padding-bottom: 50px;
+            flex-direction: column;
             
             &__div{
                 gap: 10px;
@@ -486,7 +510,7 @@
                  text-align: center;
                  padding-left: 60px;
                  padding-right: 60px;
-                 font-size:16px;
+                 font-size:15px;
                 
                 }
         }
@@ -498,6 +522,7 @@
          &__contenedor{
 
             padding-bottom: 50px;
+            flex-direction: column;
             
             &__div{
                 gap: 10px;
@@ -516,13 +541,18 @@
 }
 
 @media (max-width: 755px) { 
-    .btn{
+   
+    #btn{
 
-        font-size: 15px;
+        font-size: 13px;
+    }
+    .headerMenu{
+
+        height: 30vh;
     }
 
     .imgMenu{
-        width: 50%;
+        width: 100%;
        
      }
      
@@ -531,6 +561,7 @@
          &__contenedor{
 
             padding-bottom: 60px;
+            flex-direction: column;
              
              p{
                  text-align: center;
@@ -548,7 +579,7 @@
          &__contenedor{
 
             padding-bottom: 60px;
-     
+            flex-direction: column;
              
              p{
                  text-align: center;
@@ -563,13 +594,10 @@
 }
 
 @media (max-width: 633px) { 
-    .btn{
-
-        font-size: 15px;
-    }
-
+   
+    
     .imgMenu{
-        width: 50%;
+        width: 100%;
        
      }
      
@@ -578,6 +606,7 @@
          &__contenedor{
 
             padding-bottom: 50px;
+            flex-direction: column;
 
             &__div{
                 gap: 5px;
@@ -600,6 +629,7 @@
          &__contenedor{
 
             padding-bottom: 50px;
+            flex-direction: column;
 
             &__div{
                 gap: 5px;
@@ -620,13 +650,10 @@
 
 @media (max-width: 457px) { 
 
-    .btn{
-
-        font-size: 15px;
-    }
+    
 
     .imgMenu{
-        width: 50%;
+        width: 100%;
        
      }
      
@@ -635,7 +662,7 @@
          &__contenedor{
 
             padding-bottom: 50px;
-
+            flex-direction: column;
             &__div{
                 gap: 0px;
             }
@@ -657,6 +684,7 @@
          &__contenedor{
 
             padding-bottom: 50px;
+            flex-direction: column;
 
             &__div{
                 gap: 0px;
@@ -677,13 +705,13 @@
 
 @media (max-width: 397px) {
     
-    .btn{
+    #btn{
 
         font-size: 10px;
     }
 
     .imgMenu{
-        width: 50%;
+        width: 100%;
        
      }
      
@@ -692,6 +720,7 @@
          &__contenedor{
 
             padding-bottom: 50px;
+            flex-direction: column;
 
             &__div{
                 gap: 0px;
@@ -714,6 +743,7 @@
          &__contenedor{
 
             padding-bottom: 50px;
+            flex-direction: column;
 
             &__div{
                 gap: 0px;
@@ -769,17 +799,9 @@
         
     }
     
-    .form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-    }
+   
+
     
-    #reverse{
-        display: flex;
-        flex-direction: row-reverse;
-    }
 
 }
 
@@ -817,19 +839,7 @@
         
     }
     
-    .form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-        font-size: 15PX;;
-    }
-    
-    #reverse{
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
+   
 }
 
 @media (max-width: 592px) { 
@@ -866,13 +876,7 @@
         
     }
     
-    .form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-        font-size: 10PX;;
-    }
+  
     
     #reverse{
         display: flex;
@@ -915,13 +919,7 @@
         
     }
     
-    .form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0px;
-        font-size: 6px;;
-    }
+    
     
     #reverse{
         display: flex;
@@ -930,10 +928,6 @@
 
 }
 
-.btn{
-    font-size: 10px;
-    margin-top: 10px;
-}
 
 
 

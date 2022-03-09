@@ -1,11 +1,13 @@
 
 .headerMenu{
-  
-    background-color: #ecb44c5b;
-    position: relative;
-    z-index: 10;
-    width: 100%;
-    margin-bottom: 50px;
+
+        background-image: linear-gradient(rgba(128, 128, 128, 0.445) ), url("../assests/catering11.jpg");
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        opacity: 1; 
 }
 
 .imgMenu{
@@ -15,8 +17,8 @@
 .menuIzq{
 
     width: 100%;
-    height: 100%;
-    padding-bottom: 30px;
+    margin-top: 2px;
+    background-color: rgba(165, 165, 50, 0.308);
     
     
     &__contenedor{
@@ -49,8 +51,9 @@
 .menuDer{
 
     width: 100%;
-    height: 100%;
-    padding-bottom: 30px;
+   
+    background-color: rgba(165, 165, 50, 0.308);
+    margin-top: 2px;
    
     
     &__contenedor{

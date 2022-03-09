@@ -7,9 +7,7 @@
 #F4DFBA
 */
 
-.indexBody{
-    background-color: beige;
-}
+
 
 .header{
     display: flex;
@@ -19,7 +17,7 @@
     position: absolute;
     z-index: 10;
     width: 100%;
-    background-color: #eec3735b;
+    background-color: rgba(255, 255, 255, 0);
     
     &__contenedor{
         
@@ -31,7 +29,7 @@
         animation-name: aparecer;
         animation-duration: 2s;
         text-decoration: none;
-        color: black;
+        
         
             &__h1{
             
@@ -44,6 +42,18 @@
     }  
 }
 
+
+#submenu{
+
+    position: absolute;
+   
+    
+}
+
+#submenu:hover{
+    position: absolute;
+    
+}
 
 
 .redes{

@@ -14,10 +14,6 @@
 #EEC373
 #F4DFBA
 */
-.indexBody {
-  background-color: beige;
-}
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,7 +30,7 @@
   position: absolute;
   z-index: 10;
   width: 100%;
-  background-color: #eec3735b;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .header__contenedor {
@@ -48,13 +44,20 @@
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   text-decoration: none;
-  color: black;
 }
 
 .header__contenedor__logo__h1 {
   color: black;
   font-variant: small-caps;
   font-size: 50px;
+}
+
+#submenu {
+  position: absolute;
+}
+
+#submenu:hover {
+  position: absolute;
 }
 
 .redes {
@@ -95,15 +98,14 @@ main a :hover {
 }
 
 .banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.103))), url("../assests/portada2.jpeg");
-  background-image: linear-gradient(rgba(128, 128, 128, 0.103)), url("../assests/portada2.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.445))), url("../assests/portada2.jpeg");
+  background-image: linear-gradient(rgba(128, 128, 128, 0.445)), url("../assests/portada2.jpeg");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   opacity: 1;
-  background-color: gray;
   margin-top: 0px;
 }
 
@@ -138,8 +140,8 @@ main a :hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #f4dfbad8;
-  margin-top: 5px;
+  background-color: beige;
+  margin-top: 2px;
 }
 
 .scroll__contenedor {
@@ -175,6 +177,20 @@ main a :hover {
   color: rgba(0, 0, 0, 0.424);
 }
 
+.scroll .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+}
+
 .scroll .img-fluid {
   width: 50%;
 }
@@ -187,11 +203,11 @@ main a :hover {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  background-color: #f4dfbad8;
-  margin-top: 5px;
+  background-color: beige;
+  margin-top: 2px;
 }
 
-.scroll--mod .form {
+.scroll--mod__contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,16 +215,81 @@ main a :hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.787);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: justify;
+  text-align: center;
+  padding-top: 90px;
+  gap: 10px;
 }
 
 .scroll--mod .img-fluid {
   width: 50%;
 }
 
-.scroll--mod .maps {
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.contacto {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(185, 200, 100, 0.253))), url("../assests/pancasero.jpg");
+  background-image: linear-gradient(rgba(185, 200, 100, 0.253)), url("../assests/pancasero.jpg");
+  height: 100vh;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+  margin-top: 2px;
+}
+
+.contacto__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+  gap: 20px;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a:hover {
+  color: black;
+}
+
+#submenu {
+  display: none;
+  position: absolute;
+}
+
+#submenu li a {
+  display: block;
+}
+
+#menu li:hover #submenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer {
@@ -225,7 +306,7 @@ main a :hover {
   width: 100%;
   height: 30vh;
   padding-top: 50px;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .footer__ul__li {
@@ -242,6 +323,10 @@ main a :hover {
 .footer__log {
   text-decoration: none;
   color: black;
+}
+
+.footer__log a {
+  text-decoration: none;
 }
 
 .footer__log__h2 {
@@ -261,11 +346,14 @@ main a :hover {
 }
 
 .headerMenu {
-  background-color: #ecb44c5b;
-  position: relative;
-  z-index: 10;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.445))), url("../assests/catering11.jpg");
+  background-image: linear-gradient(rgba(128, 128, 128, 0.445)), url("../assests/catering11.jpg");
+  height: 100vh;
   width: 100%;
-  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
 }
 
 .imgMenu {
@@ -274,8 +362,8 @@ main a :hover {
 
 .menuIzq {
   width: 100%;
-  height: 100%;
-  padding-bottom: 30px;
+  margin-top: 2px;
+  background-color: rgba(165, 165, 50, 0.308);
 }
 
 .menuIzq__contenedor {
@@ -313,8 +401,8 @@ main a :hover {
 
 .menuDer {
   width: 100%;
-  height: 100%;
-  padding-bottom: 30px;
+  background-color: rgba(165, 165, 50, 0.308);
+  margin-top: 2px;
 }
 
 .menuDer__contenedor {
@@ -351,45 +439,38 @@ main a :hover {
   padding-right: 120px;
 }
 
-.headerEquipo {
-  background-color: beige;
-}
-
-.equipo {
-  margin-top: 2px;
-}
-
-.equipo__sec {
-  margin-top: 2px;
-}
-
-.equipo__sec__cont {
+.pizza {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.445))), url("../assests/pizzas.jpg");
+  background-image: linear-gradient(rgba(128, 128, 128, 0.445)), url("../assests/pizzas.jpg");
+  height: 100vh;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+}
+
+.imgPizza {
+  width: 50%;
+}
+
+.pizzaIzq {
+  width: 100%;
+  height: 100%;
+  margin-top: 2px;
+  background-color: rgba(165, 165, 50, 0.308);
+}
+
+.pizzaIzq__contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.equipo__sec__cont__p {
-  font-size: 40px;
-  text-align: center;
-  padding-bottom: 00px;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
-.equipoImg {
-  width: 50%;
-  height: 150vh;
-}
-
-.form {
+.pizzaIzq__contenedor__div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,10 +481,27 @@ main a :hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
 }
 
-#reverse {
+.pizzaIzq__contenedor p {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 20px;
+}
+
+.pizzaDer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(165, 165, 50, 0.308);
+  margin-top: 2px;
+}
+
+.pizzaDer__contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -411,6 +509,228 @@ main a :hover {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.pizzaDer__contenedor__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+}
+
+.pizzaDer__contenedor p {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.headerEquipo {
+  background-color: beige;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.164))), url("../assests/brodequipo1.jpeg");
+  background-image: linear-gradient(rgba(128, 128, 128, 0.164)), url("../assests/brodequipo1.jpeg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+  margin-top: 0px;
+}
+
+.equipoIzq {
+  width: 100%;
+  height: 100%;
+  margin-top: 2px;
+  background-color: rgba(165, 165, 50, 0.308);
+}
+
+.equipoIzq__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.equipoIzq__contenedor__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  width: 50%;
+}
+
+.equipoIzq__contenedor p {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 20px;
+}
+
+.equipoDer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(165, 165, 50, 0.308);
+  margin-top: 2px;
+}
+
+.equipoDer__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.equipoDer__contenedor__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+}
+
+.equipoDer__contenedor p {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.imgEquipo {
+  width: 50%;
+}
+
+.headerCat {
+  background-color: beige;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.164))), url("../assests/catering6.jpg");
+  background-image: linear-gradient(rgba(128, 128, 128, 0.164)), url("../assests/catering6.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+  margin-top: 0px;
+}
+
+.catIzq {
+  width: 100%;
+  height: 100%;
+  margin-top: 2px;
+  background-color: rgba(165, 165, 50, 0.308);
+}
+
+.catIzq__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.catIzq__contenedor__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  width: 50%;
+}
+
+.catIzq__contenedor p {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 20px;
+}
+
+.catDer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(165, 165, 50, 0.308);
+  margin-top: 2px;
+}
+
+.catDer__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.catDer__contenedor__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+}
+
+.catDer__contenedor p {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.imgCat {
+  width: 50%;
 }
 
 @media (max-width: 991.98px) {
@@ -456,7 +776,6 @@ main a :hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-color: #f4dfbad8;
     margin-top: 5px;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -593,10 +912,6 @@ main a :hover {
 }
 
 @media (max-width: 411px) {
-  #boton {
-    margin-left: 40px;
-    font-size: 15px;
-  }
   .banner {
     height: 70vh;
   }
@@ -655,7 +970,6 @@ main a :hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-color: #f4dfbad8;
     margin-top: 5px;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -674,14 +988,24 @@ main a :hover {
 }
 
 @media (max-width: 999px) {
+  .headerMenu {
+    height: 70vh;
+  }
   .imgMenu {
-    width: 50%;
+    width: 100%;
   }
   .menuIzq__contenedor {
     padding-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
   }
   .menuIzq__contenedor__div {
     gap: 15px;
+    width: 100%;
+    height: 40vh;
   }
   .menuIzq__contenedor p {
     text-align: center;
@@ -691,9 +1015,16 @@ main a :hover {
   }
   .menuDer__contenedor {
     padding-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
   }
   .menuDer__contenedor__div {
     gap: 15px;
+    width: 100%;
+    height: 40vh;
   }
   .menuDer__contenedor p {
     text-align: center;
@@ -704,14 +1035,21 @@ main a :hover {
 }
 
 @media (max-width: 823px) {
-  .btn {
-    font-size: 17px;
+  #btn {
+    font-size: 15px;
+  }
+  .headerMenu {
+    height: 50vh;
   }
   .imgMenu {
-    width: 50%;
+    width: 100%;
   }
   .menuIzq__contenedor {
     padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuIzq__contenedor__div {
     gap: 10px;
@@ -720,10 +1058,14 @@ main a :hover {
     text-align: center;
     padding-left: 60px;
     padding-right: 60px;
-    font-size: 16px;
+    font-size: 15px;
   }
   .menuDer__contenedor {
     padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuDer__contenedor__div {
     gap: 10px;
@@ -737,14 +1079,21 @@ main a :hover {
 }
 
 @media (max-width: 755px) {
-  .btn {
-    font-size: 15px;
+  #btn {
+    font-size: 13px;
+  }
+  .headerMenu {
+    height: 30vh;
   }
   .imgMenu {
-    width: 50%;
+    width: 100%;
   }
   .menuIzq__contenedor {
     padding-bottom: 60px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuIzq__contenedor p {
     text-align: center;
@@ -754,6 +1103,10 @@ main a :hover {
   }
   .menuDer__contenedor {
     padding-bottom: 60px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuDer__contenedor p {
     text-align: center;
@@ -764,14 +1117,15 @@ main a :hover {
 }
 
 @media (max-width: 633px) {
-  .btn {
-    font-size: 15px;
-  }
   .imgMenu {
-    width: 50%;
+    width: 100%;
   }
   .menuIzq__contenedor {
     padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuIzq__contenedor__div {
     gap: 5px;
@@ -784,6 +1138,10 @@ main a :hover {
   }
   .menuDer__contenedor {
     padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuDer__contenedor__div {
     gap: 5px;
@@ -797,14 +1155,15 @@ main a :hover {
 }
 
 @media (max-width: 457px) {
-  .btn {
-    font-size: 15px;
-  }
   .imgMenu {
-    width: 50%;
+    width: 100%;
   }
   .menuIzq__contenedor {
     padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuIzq__contenedor__div {
     gap: 0px;
@@ -817,6 +1176,10 @@ main a :hover {
   }
   .menuDer__contenedor {
     padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuDer__contenedor__div {
     gap: 0px;
@@ -830,14 +1193,18 @@ main a :hover {
 }
 
 @media (max-width: 397px) {
-  .btn {
+  #btn {
     font-size: 10px;
   }
   .imgMenu {
-    width: 50%;
+    width: 100%;
   }
   .menuIzq__contenedor {
     padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuIzq__contenedor__div {
     gap: 0px;
@@ -850,6 +1217,10 @@ main a :hover {
   }
   .menuDer__contenedor {
     padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .menuDer__contenedor__div {
     gap: 0px;
@@ -889,28 +1260,6 @@ main a :hover {
     width: 50%;
     height: 50%;
   }
-  .form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 5px;
-  }
-  #reverse {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
 }
 
 @media (max-width: 924px) {
@@ -940,29 +1289,6 @@ main a :hover {
     width: 50%;
     height: 50%;
   }
-  .form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 5px;
-    font-size: 15PX;
-  }
-  #reverse {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
 }
 
 @media (max-width: 592px) {
@@ -991,20 +1317,6 @@ main a :hover {
   .equipoImg {
     width: 50%;
     height: 50%;
-  }
-  .form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 5px;
-    font-size: 10PX;
   }
   #reverse {
     display: -webkit-box;
@@ -1047,20 +1359,6 @@ main a :hover {
     width: 50%;
     height: 50%;
   }
-  .form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 0px;
-    font-size: 6px;
-  }
   #reverse {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1070,10 +1368,5 @@ main a :hover {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-}
-
-.btn {
-  font-size: 10px;
-  margin-top: 10px;
 }
 /*# sourceMappingURL=main.css.map */

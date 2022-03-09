@@ -26,13 +26,21 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
+            <div class="collapse navbar-collapse  justify-content-center" id="menu">
                 <ul class="navbar-nav align-items-end">
                   <li class="nav-item ">
                     <a class="nav-link " href="../index.html">Inicio</a>
                   </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="menu.html">Menu</a>
+                        <a class="nav-link " href="">Menu</a>
+                        <ul class="nav flex-column" id="submenu">
+                          <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Panes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="pizza.html">Pizzas</a>
+                          </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="equipo.html">Equipo</a>
@@ -50,46 +58,50 @@
         </div>    
     </nav>    
 </header>
-  <main class="equipo">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../assests/brodequipo1.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../assests/brodequipo5.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../assests/brodequipo.jpeg" class="d-block w-100" alt="...">
-        </div>
+  <main class="equipo"> 
+    <section class="equipoIzq">
+      <div class="equipoIzq__contenedor">
+        <img class="imgEquipo" src="../assests/brodequipo2.jpeg" alt="">
+        <div class="equipoIzq__contenedor__div">
+          <p>En Brod somos un equipo de personas que elaboramos todos los dias panaderia artesanal,
+            con harinas naturales y materia prima de calidad.</p>
       </div>
-    </div>
-    <section class="equipo__sec">
-      <div class="equipo__sec__cont">
-        <p class="equipo__sec__cont__p">Somos un equipo de personas que elaboramos todos los dias panaderia artesanal,
-          con harinas
-          naturales y materia prima de calidad. Todo lo que hacemos en Bröd está hecho con nuestras manos.</p>
-          <img src="../assests/brodfrase.jpeg" class="equipoImg" alt="...">
       </div>
     </section>
-    <section class="equipo__sec">
-      <div class="equipo__sec__cont" id="reverse" >
-        <div>
-          <p class="equipo__sec__cont__p">Forma parte de Bröd y trabaja con nosotros</p>
-          <form  action="" method="get" enctype="text/plains">
-            <fieldset class="form" >
-                <label for="">Nombre</label>
-                <input type="text" name="username" id="info-personal" placeholder="">
-                <label for="">Correo electrónico</label>
-                <input type="text" name="username" id="info-personal" placeholder="">
-                <label for="">Teléfono</label>
-                <input type="text" name="username" id="info-personal" placeholder="">
-                <label for="">Envíe su comentario:</label>
-                <textarea name="msg" id="" cols="30" rows="5"></textarea>
-                <button id="btn" type="button" class="btn btn-dark">Enviar CV</button>
-        </form>  
-        </div>
-        <img src="../assests/brodequipo6.jpeg" class="equipoImg" alt="...">
+    <section class="equipoDer">
+      <div class="equipoDer__contenedor">
+        <img class="imgEquipo" src="../assests/brodequipo5.jpeg" alt="">
+        <div class="equipoDer__contenedor__div">
+        <p> Todo lo que hacemos en Brod está hecho con nuestras manos.</p>
+      </div>
+      </div>
+    </section>
+    <section class="equipoIzq">
+      <div class="equipoIzq__contenedor">
+        <img class="imgEquipo" src="../assests/brodequipo6.jpeg" alt="">
+        <div class="equipoIzq__contenedor__div">
+        <p>Envianos tu CV y trabaja con nosotros! Forma parte de un equipo formado por personas apasionadas por el pan artesanal </p>
+        <form  action="" method="get" enctype="text/plains">
+          <fieldset class="form">
+              <label for="">Nombre</label>
+              <input type="text" name="username" id="info-personal" placeholder="">
+              <label for="">Correo electrónico</label>
+              <input type="text" name="username" id="info-personal" placeholder="">
+              <label for="">Teléfono</label>
+              <input type="text" name="username" id="info-personal" placeholder="">
+              <label for="">Envíe su comentario:</label>
+              <textarea name="msg" id="" cols="30" rows="5"></textarea>
+          <button id="btn" type="button" class="btn btn-dark">Enviar CV</button>
+      </form>  
+      </div>
+      </div>
+    </section>
+    <section class="equipoDer">
+      <div class="equipoDer__contenedor">
+        <img class="imgEquipo" src="../assests/brodequipo.jpeg" alt="">
+        <div class="equipoDer__contenedor__div">
+          <p>Suscribite a nuestras redes sociales y recibi ofertas increibles</p> 
+      </div>
       </div>
     </section>
   </main>
@@ -97,25 +109,11 @@
     <div class="footer__log">
       <h2 class="footer__log__h2">Bröd</h2>
     </div>
-    <ul class="footer__ul">
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">contactenos</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">seguí tu pedido</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">métodos de pago</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">preguntas frecuentes</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">defensa del consumidor</a></li>
-    </ul>
-    <ul class="footer__ul">
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">empleos</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">franquicias</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">sustentabilidad</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">política de privacidad</a></li>
-      <li class="footer__ul__li"><a class="footer__ul__li__a" href="">términos y condiciones</a></li>
-    </ul>
     <div class="footer__redes">
-      <a href="https://www.instagram.com/"><img src="../assests/instagram.png" alt="" width="32px"></a>
-      <a href="https://www.facebook.com/"><img src="../assests/face.png" alt="" width="38px"></a>
-      <a href="https://www.whatsapp.com/?lang=es"><img src="../assests/whatsap.png" alt="" width="38px"></a>
-    </div>
+      <a href="https://www.instagram.com/"><img src="../assests/instagram.png" alt="" width="42px"></a>
+      <a href="https://www.facebook.com/"><img src="../assests/face.png" alt="" width="50px"></a>
+      <a href="https://www.whatsapp.com/?lang=es"><img src="../assests/whatsap.png" alt="" width="50px"></a>
+  </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
