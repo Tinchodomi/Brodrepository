@@ -98,8 +98,8 @@ main a :hover {
 }
 
 .banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.445))), url("../assests/portada2.jpeg");
-  background-image: linear-gradient(rgba(128, 128, 128, 0.445)), url("../assests/portada2.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.392))), url("../assests/portada2.jpeg");
+  background-image: linear-gradient(rgba(128, 128, 128, 0.392)), url("../assests/portada2.jpeg");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;

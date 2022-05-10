@@ -14,30 +14,30 @@
 </head>
 <body >
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light w-100" >
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
             <div class="container-fluid ">   
-            <div class="header__contenedor">
-                <a class="header__contenedor__logo" href="index.html">
-                    <h1 class="header__contenedor__logo__h1">Bröd</h1>
-                </a>
-            </div>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <div class="header__contenedor">
+                    <a class="header__contenedor__logo" href="index.html">
+                        <h1 id="h1header" class="header__contenedor__logo__h1">Bröd</h1>
+                    </a>
+                </div>
+                    <button id="btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+                    </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav align-items-end justify-content-center" id="menu" >
                         <li class="nav-item ">
-                            <a class="nav-link " href="index.html">Inicio</a>
-                          </li>
+                            <a class="nav-link" href="./pages/menu.html">Panes</a>
+                        </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="">Menu</a>
+                            <a class="nav-link" href="./pages/pizza.html">Pizzas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="./pages/equipo.html">Equipo</a>
+                            <a class="nav-link " href="">Equipo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="./pages/catering.html">Catering</a>
+                            <a class="nav-link " href="">Catering</a>
                         </li>
                     </ul>
                 </div>
@@ -52,9 +52,10 @@
     <main class="main">
         <section class="banner">
             <div class="banner__contenedor">
-                <h2 class="banner__contenedor__parr">Bienvenidos<span class="banner__contenedor__parr"> a nuestra Casa</span></h2>
-                <h5>*Desde 1991*</h5>
-                <button type="button" class="btn btn-dark" id="boton">Reservá tu pedido</button>
+                <h2 id="h2header" class="banner__contenedor__parr">Bienvenidos<span class="banner__contenedor__parr"> a nuestra Casa</span></h2>
+                <h5>* La calidad de siempre *</h5>
+                <h6>* Desde 1991 *</h6>
+                <button type="button" class="btn btn-dark" id="btn2">Reservá tu pedido</button>
             </div>
         </section>
         <section class="scroll">
@@ -70,7 +71,7 @@
         <section class="scroll--mod">
             <div class="scroll__contenedor">
                 <img class="scrollImg" src="assests/chef.png" alt="" width="7%">
-                <a class="scroll__contenedor__a" href="./pages/equipo.html">
+                <a class="scroll__contenedor__a" href="./pages/pizza.html">
                     <h2 class="scroll__contenedor__a__h2"  >Pizzería</h2>
                 </a>
                 <p class="scroll__contenedor__p">Conocé las distintas variedades.</p>
@@ -80,7 +81,7 @@
         <section class="scroll">
             <div class="scroll__contenedor">
                 <img class="scrollImg" src="assests/food-tray.png" alt="" width="8%">
-                <a class="scroll__contenedor__a" href="./pages/catering.html">
+                <a class="scroll__contenedor__a" href="">
                     <h2 class="scroll__contenedor__a__h2">Catering</h2>
                 </a>
                 <p class="scroll__contenedor__p">Eventos familiares y empresariales.</p>
@@ -90,7 +91,7 @@
         <section class="scroll--mod">
             <div class="scroll__contenedor">
                 <img class="scrollImg" src="assests/chef.png" alt="" width="7%">
-                <a class="scroll__contenedor__a" href="./pages/equipo.html">
+                <a class="scroll__contenedor__a" href="">
                     <h2 class="scroll__contenedor__a__h2"  >Equipo</h2>
                 </a>
                 <p class="scroll__contenedor__p">Conocé los mejores maestros panaderos.</p>
