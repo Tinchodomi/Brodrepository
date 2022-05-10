@@ -734,6 +734,9 @@ main a :hover {
 }
 
 @media (max-width: 991.98px) {
+  span {
+    display: none;
+  }
   .redes {
     display: none;
   }
@@ -790,6 +793,9 @@ main a :hover {
 }
 
 @media (max-width: 767.98px) {
+  span {
+    display: none;
+  }
   .banner {
     height: 80vh;
   }
@@ -1035,9 +1041,6 @@ main a :hover {
 }
 
 @media (max-width: 823px) {
-  #btn {
-    font-size: 15px;
-  }
   .headerMenu {
     height: 50vh;
   }
@@ -1079,9 +1082,6 @@ main a :hover {
 }
 
 @media (max-width: 755px) {
-  #btn {
-    font-size: 13px;
-  }
   .headerMenu {
     height: 30vh;
   }
@@ -1193,9 +1193,6 @@ main a :hover {
 }
 
 @media (max-width: 397px) {
-  #btn {
-    font-size: 10px;
-  }
   .imgMenu {
     width: 100%;
   }

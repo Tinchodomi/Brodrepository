@@ -3,7 +3,9 @@
 
 @media (max-width: 991.98px) { 
 
-
+    span{
+        display: none;
+    }
     .redes{
         display: none;
     }
@@ -97,6 +99,9 @@
 
 @media (max-width: 767.98px) { 
 
+    span{
+        display: none;
+    }
     
     .banner{
         
@@ -480,11 +485,7 @@
 
 @media (max-width: 823px) { 
 
-    #btn{
-
-        font-size: 15px;
-    }
-
+    
     .headerMenu{
 
         height: 50vh;
@@ -542,10 +543,7 @@
 
 @media (max-width: 755px) { 
    
-    #btn{
 
-        font-size: 13px;
-    }
     .headerMenu{
 
         height: 30vh;
@@ -705,11 +703,7 @@
 
 @media (max-width: 397px) {
     
-    #btn{
-
-        font-size: 10px;
-    }
-
+  
     .imgMenu{
         width: 100%;
        
