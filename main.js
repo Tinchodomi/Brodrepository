@@ -101,10 +101,8 @@ class Producto {
 const almacenados = JSON.parse(localStorage.getItem ("listaProductos"));
 const productosPan = [];
 
-for(const objeto of almacenados) productosPan.push(new Producto(objeto))
-
-
-
+for(const objeto of almacenados) productosPan.push(new Producto(objeto));
 for (const precio of productosPan) precio.sumaIva();
 
-console.log(productosPan)
+console.log(productosPan);
+
